@@ -33,7 +33,7 @@ main
 
 main > p 
 {
-   font-size: 19px;
+   font-size: 19rem;
    font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 5px;
@@ -44,9 +44,9 @@ main > p
 
 #clock span 
 {
-   background:linear-gradient(to bottom, #2f2d46 50%, #3d3052 50%);
+   background:linear-gradient(to bottom, #2f2d46 50%, #343650 50%);
    color: #fb6087;
-   font-size: 33px;
+   font-size: 33rem;
    margin: 8px;
    width: 65px;
    height: 65px;
@@ -54,6 +54,8 @@ main > p
    text-align: center;
    padding-top: 10px;
    box-sizing: border-box;
+   border-radius: 10px;
+   box-shadow: 0px 5px 0px hsl(235, 16%, 14%);
 }
 
 .text 
@@ -91,6 +93,11 @@ footer
 i 
 {
    color: #8486a9;
-   font-size: 27px;
+   font-size: 27rem;
    margin: 0 25px;
+}
+
+i:hover 
+{
+   color: #fb6087;
 }
