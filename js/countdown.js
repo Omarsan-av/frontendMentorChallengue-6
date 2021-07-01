@@ -44,4 +44,4 @@ const countdown = (deadline, finalMessage) => {
 
 };
 
-countdown('Sun Jan 20 2021 02:58:00 GMT-0600', 'Feliz Dia')
+countdown('Sun Dec 31 2021 11:59:00 GMT-0600', 'Feliz Año')
